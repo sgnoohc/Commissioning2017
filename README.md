@@ -1,6 +1,16 @@
 
 # Commissioning work
 
+## To run the code
+
+Assumes that the user is working on UAF.
+
+    source setup_cmssw.sh
+    sh compile.sh # this creates doAll_C.so
+    sh submit_batch.sh
+
+Individual output is aggregated under ```output/```, and the hadded result is in ```output.root```.
+
 ## The datasets
 
 The new 2017 data sits here:
@@ -77,3 +87,5 @@ In file doAll.C copy paste
     }
 
 Happy coding!
+
+
